@@ -25,9 +25,6 @@ output:
 - メモ
   + [TeXでプレゼン](#3)
   + [Rでプレゼン](#4)
-  + [Rの使い方](https://takeshinishimura.github.io/howtouseR)（現在，非公開）
-  + [農業簿記の基礎](https://researchmap.jp/takeshinishimura/social_contribution/31833947)
-  + [](https://takeshinishimura.github.io/Apple)（自分用の備忘録）
 
 ---
 # Graduate School of Agriculture, Ehime University
