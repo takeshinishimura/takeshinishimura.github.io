@@ -37,8 +37,8 @@
 ---
 # Graduate School of Agriculture, Ehime University
 
-<div class="leaflet html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-a92cd8eb90be8a269c05" style="width:100%;height:540px;"></div>
-<script type="application/json" data-for="htmlwidget-a92cd8eb90be8a269c05">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addTiles","args":["https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",null,null,{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false,"attribution":"&copy; <a href=\"https://openstreetmap.org\">OpenStreetMap<\/a> contributors, <a href=\"https://creativecommons.org/licenses/by-sa/2.0/\">CC-BY-SA<\/a>"}]},{"method":"addPopups","args":[33.8392094,132.7917739,"Tarumi Campus, Ehime University",null,null,{"maxWidth":300,"minWidth":50,"autoPan":true,"keepInView":false,"closeButton":true,"className":""}]},{"method":"addMiniMap","args":[null,null,"bottomright",150,150,19,19,-5,false,false,false,false,false,false,{"color":"#ff7800","weight":1,"clickable":false},{"color":"#000000","weight":1,"clickable":false,"opacity":0,"fillOpacity":0},{"hideText":"Hide MiniMap","showText":"Show MiniMap"},[]]}],"setView":[[33.8392094,132.7917739],16,[]],"limits":{"lat":[33.8392094,33.8392094],"lng":[132.7917739,132.7917739]}},"evals":[],"jsHooks":[]}</script>
+<div class="leaflet html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-2e12e064c82caaa43435" style="width:100%;height:540px;"></div>
+<script type="application/json" data-for="htmlwidget-2e12e064c82caaa43435">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addTiles","args":["https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",null,null,{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false,"attribution":"&copy; <a href=\"https://openstreetmap.org\">OpenStreetMap<\/a> contributors, <a href=\"https://creativecommons.org/licenses/by-sa/2.0/\">CC-BY-SA<\/a>"}]},{"method":"addPopups","args":[33.8392094,132.7917739,"Tarumi Campus, Ehime University",null,null,{"maxWidth":300,"minWidth":50,"autoPan":true,"keepInView":false,"closeButton":true,"className":""}]},{"method":"addMiniMap","args":[null,null,"bottomright",150,150,19,19,-5,false,false,false,false,false,false,{"color":"#ff7800","weight":1,"clickable":false},{"color":"#000000","weight":1,"clickable":false,"opacity":0,"fillOpacity":0},{"hideText":"Hide MiniMap","showText":"Show MiniMap"},[]]}],"setView":[[33.8392094,132.7917739],16,[]],"limits":{"lat":[33.8392094,33.8392094],"lng":[132.7917739,132.7917739]}},"evals":[],"jsHooks":[]}</script>
 
 
 ---
@@ -51,19 +51,19 @@
 
 ```TeX
 \documentclass[unicode,11pt,xcolor={dvipsnames,svgnames},usepdftitle=false,aspectratio=169]{beamer}
-% ハンドアウトの場合：handout
+% ハンドアウトの場合
 %\documentclass[unicode,11pt,xcolor={dvipsnames,svgnames},usepdftitle=false,aspectratio=43,handout]{beamer}
 %\usepackage{pgfpages}
 %\pgfpagesuselayout{4 on 1}[a4paper,landscape]
 \usetheme{metropolis}
 
 % 日本語対応
-\usepackage{zxjatype}
-%\usepackage[ipaex]{zxjafont}
-\setjamainfont{Hiragino Kaku Gothic ProN W3}
-\setjasansfont{Hiragino Kaku Gothic ProN W3}
-\setjamonofont{Hiragino Maru Gothic ProN W4}
-
+%\usepackage{zxjatype}
+\usepackage[boldfont]{xeCJK}
+\setCJKmainfont{Hiragino Kaku Gothic ProN W3}
+\setCJKsansfont{Hiragino Kaku Gothic ProN W3}
+\setCJKmonofont{Hiragino Maru Gothic ProN W4}
+\usepackage{pxrubrica}
 %\usepackage{arev}% 数式フォントをArev Sansなどにすると，記号（例：※，→）が出力されない
 ```
 
