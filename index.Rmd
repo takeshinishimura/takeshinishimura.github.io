@@ -47,16 +47,19 @@ m %>% leaflet::setView(lng = 132.7917739, lat = 33.8392094, zoom = 16) %>%
   + XeLaTeXでコンパイル
 
 ```TeX
-\documentclass[unicode, 10pt, xcolor={dvipsnames, svgnames}, usepdftitle=false]{beamer}
+\documentclass[unicode,11pt,xcolor={dvipsnames,svgnames},usepdftitle=false,aspectratio=169]{beamer}
 % ハンドアウトの場合：handout
-% 16:9の場合：aspectratio=169
+%\documentclass[unicode,11pt,xcolor={dvipsnames,svgnames},usepdftitle=false,aspectratio=43,handout]{beamer}
+%\usepackage{pgfpages}
+%\pgfpagesuselayout{4 on 1}[a4paper,landscape]
 \usetheme{metropolis}
 
 % 日本語対応
 \usepackage{zxjatype}
-\setjamainfont{Hiragino Mincho ProN W3}
+%\usepackage[ipaex]{zxjafont}
+\setjamainfont{Hiragino Kaku Gothic ProN W3}
 \setjasansfont{Hiragino Kaku Gothic ProN W3}
-\setjamonofont{Hiragino Kaku Gothic ProN W3}
+\setjamonofont{Hiragino Maru Gothic ProN W4}
 
 %\usepackage{arev}% 数式フォントをArev Sansなどにすると，記号（例：※，→）が出力されない
 ```
